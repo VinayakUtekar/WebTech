@@ -1,0 +1,60 @@
+/*
+    inline -> does not take heigth & width of screen/view
+    block -> does take heigth & width of screen/view
+    inline-block -> follow inline properties but takes heigth and width 
+*/
+
+html{
+    font-size: 20px;
+}
+
+.container{
+    /*height: 100mm;
+    width: 100mm;
+    height: 10cm;
+    width: 10cm;
+    height: 4in;
+    width: 4in;
+    height: 100pt;
+    width: 100pt;*/
+    height: 15pc;
+    width: 15pc;
+    border: 1px solid black;
+}
+
+section{
+    font-size: 10px;;
+}
+section>p{
+    /*font-size: 1.5rem*/
+    font-size: 1.5rem;
+}
+aside{
+    width: 80%;
+    height: 350px;
+    border: 1px solid black;
+}
+div{
+    width: 80%;
+    height: 90%;
+    border: 1px solid black;
+}
+.art{
+    height: 90vh;
+    width: 90vw;
+    border: 1px solid black;
+}
+h1{
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+}
+span{
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+}
+img{
+    height: 300px;
+    width: 300px;
+}

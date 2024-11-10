@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1></h1>
+    <!--
+        1 form tag - semantic block, block level, tag name defines itself, container
+          Action attribute - use to redirect to different page once completed with form filling
+          Target attribute - define to reload page in new or same page
+        2 every tag inside form tag is a inline level element
+        3 input tag - create input field, self closing or paired tag
+          Type attribute - defines what type of input
+          (text, number, date, radio, checkbox, range, file, email, tel)
+          Required attribute - no value...only attribute name...defines data filling compulsory
+        4 Label tag - used to give label to input tag, inline level element, paired tag
+          For attribute - it should be equal to the id attribute of input tag 
+        5 Button tag - inline level element, unpaired tag
+          Type attribute - specifies which type of button
+          (submit(by default), button, reset)
+    -->
+    <form action="./5Home.html" target="_blank">
+        <label for="username">UserName : </label>
+        <input type="text" id="username" name="username" required /> <!--Name attribute is used to define under which headin or column to store in db-->
+        <br /><br />
+        <label for="password">Password : </label>
+        <input type="password" name="password" id="password" required /> 
+        <br /><br />
+        <label for="email">Email Id : </label> 
+        <input type="email" name="email" id="email" required/>
+        <br /><br />
+        <button type="submit">Login In</button>
+        <button type="button">Create New Account</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+</html>

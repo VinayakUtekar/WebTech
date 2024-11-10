@@ -1,0 +1,44 @@
+a:link{
+    color: black;
+}
+a:visited{
+    color: aqua;
+}
+
+a:hover{
+    color: burlywood;
+}
+
+button{
+    background: black;
+    color: white;
+    border: none;
+    border-width: 5px;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+button:hover{
+    background: white;
+    color: black;
+    border: 1px solid black;
+}
+
+a:active{
+    color: yellow;
+}
+
+a:focus{
+    color: hotpink;
+}
+
+ul>li:first-child{
+    color: blueviolet;
+}
+ul>li:last-child{
+    color: hotpink;
+}
+
+ul>li:nth-child(odd){
+    color: cadetblue;
+}

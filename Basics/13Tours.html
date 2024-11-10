@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            /*border-collapse: collapse; normal border display no boxes*/
+            width: 100%;
+            height: 100%;
+            color: black;
+            background-color: rgb(212, 242, 242);
+            text-align: center;
+        }
+        ul#IMA { 
+            list-style-image: url(france2.jpeg) ;
+            line-height: 40px;
+            list-style-position: inside;
+        }
+        ul#Ifg{
+            list-style-image: url(USA2.jpg);
+            line-height: 40px;
+            list-style-position: inside;
+        }
+        ul#Foot{
+            list-style: none;
+        }
+        li#Bod{
+            border: 2px dashed;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <table border="2px solid red">
+        <tbody>
+            <tr>
+                <td>
+                    <ol type="1">
+                        <li>India</li>
+                        <li>Russia</li>
+                        <li>USA</li>
+                        <li>United Kingdom</li>
+                        <li>France</li>
+                    </ol>
+                </td>
+                <td>
+                    <ol type="1">
+                        <li>
+                            Maharashtra
+                            <ol type="a">
+                                <li>Mumbai</li>
+                                <li>Pune</li>
+                                <li>Raigad</li>
+                            </ol>
+                        </li>
+                        <li>
+                            Gujarat
+                            <ol type="a">
+                                <li>Ahemdbad</li>
+                                <li>Baroda</li>
+                                <li>Surat</li>
+                            </ol>
+                        </li>
+                    </ol>
+                </td>
+                <td>
+                    <ul>
+                        <li>
+                            Mumbai
+                            <ol type="1">
+                                <li>Siddhivinayak Mandir</li>
+                                <li>GateWay Of India</li>
+                                <li>Marine Lines</li>
+                            </ol>
+                        </li>
+                        <li>
+                            Pune
+                            <ol type="1">
+                                <li>Shri. Dagdusheth Mandir</li>
+                                <li>Shanivar Peth</li>
+                                <li>IT Campus</li>
+                            </ol>
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <ul id="IMA">
+                        <li> Asia  </li>
+                        <li> America  </li>
+                        <li> Africa </li>
+                    </ul>
+                </td>
+                <td>
+                    <ul id="Ifg">
+                        <li id="Bod">  USA </li>
+                        <li id="Bod">  France </li>
+                        <li id="Bod">  Eurpoe</li>
+                    </ul>
+                </td>
+                <td>
+                    <ol type="1">
+                        <li>Tourist Place</li>
+                        <li>Historic Monument</li>
+                        <li>SkyScraper</li>
+                    </ol>
+                    <ol type="a">
+                        <li>WaterFalls</li>
+                        <li>Forts</li>
+                        <li>Mountain</li>
+                    </ol>
+                </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>
+                    About Us: <br>
+                    <a href="https://www.goibibo.com/">goibibo.com</a>
+                </td>
+                <td colspan="2">
+                    Contact Us:
+                    <ul id="Foot">
+                        <li><a href="https://www.instagram.com/?hl=en">Instagram</a></li>
+                        <li><a href="https://www.facebook.com/home.php">Facebook</a></li>
+                        <li><a href="https://www.whatsapp.com/">Whatsapp</a></li>
+                    </ul>
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

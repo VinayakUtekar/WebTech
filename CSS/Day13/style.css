@@ -1,0 +1,106 @@
+@import url(mukta);
+
+*{
+    padding: 0;margin: 0;box-sizing: border-box;
+
+}
+body{
+    /*font-family: "Mukta", sans-serif;*/
+    font-family: Verdana;
+    font-weight: 400;
+    font-style: normal;
+}
+.head{
+    padding: 0 50px;
+    height: 100px;
+    background: #ccc;
+    display: flex;
+    flex-direction: row;
+}
+.a1{
+    flex-basis: 30%;
+    display: flex;
+    align-items: center;
+}
+.a2{
+    flex-basis: 60%;
+}
+.a2 > ul {
+    display: flex;
+    height: 100px;
+    align-items: center;
+    gap: 25px;
+    justify-content: center;
+    list-style: none;
+}
+.a3{
+    flex-basis: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.a3 > button{
+    background-color: #111;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+@media (max-width: 900px) and (min-width: 770px){
+    .a2 > ul > li{
+        font-size: 17px;
+    }
+    .a1 > h1{
+        font-size: 20px;
+    }
+    .a2 > ul{
+        justify-content: start;
+    }
+    .a3 > button{
+        padding: 10px 15px;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 770px) and (min-width: 645px){
+    .a2 > ul > li{
+        font-size: 14px;
+    }
+    .a1 > h1{
+        font-size: 17px;
+    }
+    .a2 > ul{
+        justify-content: start;
+    }
+    .a3 > button{
+        padding: 10px;
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 645px) and (min-width: 500px){
+    .head{
+        padding: 20px;
+        height: 200px;
+        display: flex;
+        flex-direction: column !important;
+    }
+    .demo-aside{
+        flex-basis: 33.3333333%;
+    }
+    .a2 > ul{
+        height: 100%;
+        align-items: center;
+    }
+    .a2 > ul > li{
+        font-size: 12px;
+    }
+    .a1, .a2, .a3{
+        justify-content: center;
+    }
+    .a2{
+        align-items: center;
+    }
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            /*border-collapse: collapse; normal border display no boxes*/
+            width: 75%;
+            height: 500px;
+            color: white;
+            background-color: rgb(212, 242, 242);
+        }
+        table:hover{
+            background-color: rgb(255, 255, 255);
+            color: black;
+            margin-left: 500px;
+            margin-top: 500px;
+        }
+    </style>
+</head>
+<body> 
+    <table border="2px solid red">
+        <colgroup>
+            <col span="5" style="background-color: rgb(172, 50, 50);" />
+        </colgroup>
+        <thead>
+            <tr style="background-color: rgb(54, 154, 121);">
+                <td>Date</td>
+                <td>Day</td>
+                <td>Subject</td>
+                <td>Time</td>
+                <td>Subject Traineer</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="3">29-06-2024</td>
+                <td>Saturday</td>
+                <td>Java</td>
+                <td>9-11</td>
+                <td>Nagesh Sir</td>
+            </tr>
+            <tr>
+                <!--<td>30-06-2024</td> -->
+                <td>Sunday</td>
+                <td>Webtech</td>
+                <td>11-1</td>
+                <td>Muttu Sir</td>
+            </tr>
+            <tr>
+                <!--<td>01-07-2024</td>-->
+                <td>Monday</td>
+                <td>SQL</td>
+                <td>1-3</td>
+                <td>Jai Shankar Sir</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td colspan="4">Total Classes</td>
+            <td >03</td>
+        </tfoot>
+    </table>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1></h1>
+    <form action="./5Home.html" target="_blank">
+        <label for="username">UserName : </label>
+        <input type="text" id="username" name="username" required /> <!--Name attribute is used to define under which headin or column to store in db-->
+        <br /><br />
+        <label for="password">Password : </label>
+        <input type="password" name="password" id="password" required /> 
+        <br /><br />
+        <label for="email">Email Id : </label> 
+        <input type="email" name="email" id="email" required />
+        <br /><br />
+        <label for="DOB">Enter DOB : </label>
+        <input type="date" name="DOB" id="DOB" required />
+        <br /> <br />
+        <label for="percentage">Select Percentage : </label>
+        <input type="range" name="percentage" id="percentage" min="35" max="100" required>50
+        <br /><br />
+        <span for="gender">Select Gender : </span>
+        <input type="radio" name="gender" id="male" value="male">Male
+        <input type="radio" name="gender" id="female" value="female">Female
+        <input type="radio" name="gender" id="other" value="other">other
+        <br/><br/>
+        <span for="course">Select Courses : </span>
+        <input type="checkbox" name="course" id="java" value="java">Java
+        <input type="checkbox" name="course" id="python" value="python">Python
+        <input type="checkbox" name="course" id="javascript" value="javascript">JavaScript
+        <input type="checkbox" name="course" id="react" value="react">React
+        <input type="checkbox" name="course" id="C++" value="C++">C++
+        <br /><br />
+        <label for="data"></label>Enter Message : 
+        <textarea name="data" id="data" rows="10" cols="30" style="resize: none;"></textarea>
+        <br/><br/>
+        <select name="country" id="country">
+            <option value="" selected disabled>Select Country</option>
+            <optgroup label="Asia">
+                <option value="India">India</option>
+                <option value="Russia">Russia</option>
+                <option value="Thailand">Thailand</option>
+                <option value="Japan">Japan</option>
+            </optgroup>
+            <optgroup label="America">
+                <option value="USA">USA</option>
+            </optgroup>
+            <optgroup label="Europe">
+                <option value="france">France</option>
+                <option value="UK">Uk</option>
+            </optgroup>
+        </select>
+        <br/><br/>
+        <input name="state" list="location"/>
+        <datalist id="location">
+            <option value="Maharashtra">Maharashtra</option>
+            <option value="Tamil Nadu">Tamil Nadu</option>
+            <option value="Goa">Goa</option>
+            <option value="UP">Up</option>
+            <option value="Karnataka">Karnataka</option>
+        </datalist>
+        <br/><br/>
+        <button type="submit">Login In</button>
+        <button type="button">Create New Account</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+</html>

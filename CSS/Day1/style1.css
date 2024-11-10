@@ -1,0 +1,27 @@
+.form-control >input[type="password"]{
+    background: #ccc;
+}
+.form-control >input[required]{
+    background: goldenrod;
+}
+
+.para::first-line{
+    background: yellow;
+    color: #111;
+}
+.heading::first-letter{
+    background-color: hotpink;
+}
+.js::before{
+    content: "Welcome to";
+}
+.js::after{
+    content: " Lecture";
+}
+.para::selection{
+    background: #111;
+    color: #fff;
+}
+ol>li::marker{
+    color: red;
+}

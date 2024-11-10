@@ -1,0 +1,55 @@
+a:link{
+    color: black;
+}
+a:visited{
+    color: aqua;
+}
+a:hover{
+    color: brown;
+}
+
+button{
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+button:hover{
+    background: white;
+    color: black;
+    border: 1px solid black;
+}
+
+/*
+    a:active{
+    color: yellow;
+    }
+*/
+
+a:focus{
+    color: hotpink;
+}
+
+/*ul>li:first-child{
+    color: blueviolet;
+}
+
+ul > li:last-child{
+    color: hotpink;
+}*/
+
+
+/*
+    em - relative to element
+    rem - reltaive to root element
+    1em - font-sizw of parent or container font-size
+    vh - viewport height
+    vw - viewport width
+
+    em/rem -> dependent of element
+    % -> dependent of parent continer/tag
+    vh/vw -> dependent on viewport/screen size
+*/
