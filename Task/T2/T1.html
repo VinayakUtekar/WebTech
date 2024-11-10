@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: lightgray;
+        }
+        label{
+            margin-left: 5%;
+        }
+        input{
+            height: 20px;
+        }
+        button{
+            margin-left: 20px;
+            margin-right: 50px;
+            height: 40px;
+            width: 100px;
+        }
+        textarea{
+            resize: none;
+        }
+    </style>
+</head>
+<body>
+    <Center>
+        <h1>Registeration Form</h1>
+    </Center>
+    <form action="">
+        <label for="firstN">First Name</label>
+        <input type="text" name="FirstN" id="FirstN" style="margin-left: 41px;" required/><br/><br/>
+        <label for="LastN">Last Name</label>
+        <input type="text" name="LastN" id="LastN" style="margin-left: 42px;" required /><br/><br/>
+        <label for="NickN">Nick Name</label>
+        <input type="text" name="NickN" id="NickN" style="margin-left: 40px;" required /><br/><br/>
+        <label for="email">E-mail</label>
+        <input type="email" name="email" id="email" style="margin-left: 70px;" required /><br/><br/>
+        <label for="Password">Password</label>
+        <input type="password" name="Password" id="Password" style="margin-left: 52px;" required /><br/><br/>
+        <label for="DOB">Date Of Birth</label>
+        <input type="date" name="DOB" id="DOB" required style="margin-left: 25px;" /><br/><br/>
+        <label for="gender">Gender</label>
+        <input type="radio" name="gender" id="male" style="margin-left: 66px;" />Male
+        <input type="radio" name="gender" id="female" />Female
+        <input type="radio" name="gender" id="other" />Other <br/><br/>
+        <label for="mobile">Mobile</label>
+        <input type="tel" name="mobile" id="mobile" required style="margin-left: 65px;" /><br/><br/>
+        <label for="message">Address</label>
+        <textarea name="message" id="Address" style="margin-left: 60px;" required></textarea><br/><br/>
+        <button type="submit" style="margin-left: 185px;">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+    
+</body>
+</html>

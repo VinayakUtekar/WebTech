@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: lightgray;
+        }
+        label{
+            margin-left: 5%;
+        }
+        span{
+            margin-left: 5%;
+        }
+        input{
+            height: 20px;
+        }
+        button{
+            margin-left: 20px;
+            margin-right: 50px;
+            height: 20px;
+            width: 100px;
+        }
+        textarea{
+            resize: none;
+        }
+        input.role{
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <Center>
+        <h1>Novell Service Login</h1>
+    </Center>
+    <form action="">
+        <label for="userN">UserName : </label>
+        <input type="text" name="userN" id="userN" style="margin-left: 140px;" required/><br/><br/>
+        <label for="Password">Password : </label>
+        <input type="password" name="Password" id="Password" style="margin-left: 147px;" required /><br/><br/>
+        <label for="city">City of Employment : </label>
+        <input type="text" name="city" id="city" style="margin-left: 75px;" required><br /><br />
+        <label for="webS" >Web Server : </label>
+        <select name="country" id="country" style="margin-left: 132px;">
+            <option value="" selected disabled>---Choose a Server---</option>
+            <option value="India">India</option>
+            <option value="Russia">Russia</option>
+            <option value="Thailand">Thailand</option>
+            <option value="Japan">Japan</option>
+        </select><br/><br/>
+        <label for="role">Please specify your role : </label>
+        <input type="radio" name="role" id="admin" value="admin" style="margin-left: 60px;" / >Admin<br/>
+        <input type="radio" name="role" id="enigneer" value="engineer" style="margin-left: 293px;" / >Engineer<br />
+        <input type="radio" name="role" id="manager" value="manager" style="margin-left: 293px;" / >Manager<br />
+        <input type="radio" name="role" id="guest" value="guest" style="margin-left: 293px;" />Guest<br /><br />
+        <span for="SignOn">Single Sign-On to the follwoing : </span>
+        <input type="checkbox" name="SingOn" id="mail" value="mail" style="margin-left: 9px;" style="margin-left: 293px;" />Mail<br />
+        <input type="checkbox" name="SingOn" id="payroll" value="payroll" style="margin-left: 293px;" />Payroll<br />
+        <input type="checkbox" name="SingOn" id="selfservice" value="selfservice" style="margin-left: 293px;" />Self-Service
+        <br /><br />
+
+        <button type="submit" style="margin-left: 295px;">Login</button>
+        <button type="reset">Reset</button>
+    </form>
+    
+</body>
+</html>

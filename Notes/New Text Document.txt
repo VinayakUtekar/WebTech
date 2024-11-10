@@ -1,0 +1,72 @@
+Forms :
+-----
+
+HTML Forms is used to get the data form the user.
+• In HTML Form is created using <form> tag.
+• Label created using <label> tag.
+• Textbox and field is created using <input> tag.
+• Form is Semantic tags (every tag has meaning)
+• <form> tag is the block level element.
+• But all tags of form are inline level elements.
+Syntax:
+<form>
+<label for="username">Name</label>
+<input type="text" name="username" id="username">
+</form>
+
+input :
+-----
+
+To get the data from the user.
+label
+To tell user about the data that they should fill.
+for and id
+for  label and id  input
+value should be same.
+link the label and corresponding attribute.
+name:
+-----
+acts like a container
+holds the entered data (which is visible on the url, ex: username=Raj) .
+
+
+name attribute should have same value in the input:radio to make any
+one option to be selected.
+name attribute should have same value in the input:checkbox also.
+
+value :
+-----
+
+most required attribute in the radio, checkbox, select tags.
+Without using value in radio, checkbox, select tags, it take the input as
+on.
+
+
+Form tags:
+---------
+Label
+To tell user about the data that they should fill.
+Paired tag
+Input
+To take data from the user.
+Line breaks are not allowed in input.
+We can use placeholder attribute for faint text.
+Paired tag
+Input tag has 21 types.
+
+textarea :
+-------
+To take data from the user.
+Line breaks are allowed in textarea.
+textarea has col= “” and row= “” attribute where number of
+columns and rows of the data that wanted from the user can be taken
+style= “resize= none” to disable resizing the textarea by the user.
+Paired tag .
+
+button:
+------
+To create button
+type= “submit”
+type= “reset”
+Paired tag
+Button name should be mentioned

@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.sec-1{
+    height: 12vh;
+    width: 100%;
+    padding: 0 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20%;
+    background-color: #fff; 
+    position: sticky;
+    top: 0;
+    z-index: 100; 
+    box-shadow: 1px 1px 10px #b1aeae;
+}
+.sec-1 > header{
+    flex-basis: 40%;
+}
+.sec-1 > header > h1{
+    font-size: 2.5vw;
+}
+.sec-1 > nav{
+    flex-basis: 60%;
+    height: 100%;
+}
+.sec-1 > nav > ul{
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row !important;
+    justify-items: center;
+    align-items: center;
+    gap: 10%;
+    font-size: 1.5vw;
+}
+.sec-1 > nav > ul >li > a{
+    text-decoration: none;
+    color: black;
+}
+.sec-1 > nav > ul >li > a:hover{
+    text-decoration: none;
+    border-radius: 5px;
+    color: brown;
+}
+.sec-2{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    height: 100%;
+    display: flex;
+    background-color: #e6dace;
+    flex-direction: column;
+    align-items: center;
+    gap: 8vh;
+}
+.sec-2 > .divcon1{
+    font-size: 2.5vw;
+}
+.sec-2 > .divcon{
+    width: 60%;
+    height: 20%;
+    font-size: 1vw;
+    text-align: center;
+}
+.sec-2 > .divcon2d{
+    width: 60%;
+    height: 20%;
+    padding: 4% 2%;
+    font-size: 1.3vw;
+    background-color: #fff;
+    display: flex;
+    gap: 15%;
+    flex-direction: row !important;
+    box-shadow: 1px 1px 10px #b1aeae;
+}
+.sec-2 > .divcon2d > .divcon2a{
+    flex-basis: 50%;
+    font-size: 1.3vw;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+.sec-2 > .divcon2d > .divcon2a > h1{
+    font-size: 1.8vw;
+}
+.sec-2 > .divcon2d > .divcon2a > p{
+    padding-top: 5%;
+    font-size: 1vw;
+}
+.footer{
+    height: 10vh;
+    padding: 2% 5%;
+    width: 100%;
+    display: flex;
+    flex-direction: row !important;
+    gap: 10%;
+    align-items: center;
+    font-size: 1.5vw;
+}
+.footer > .con{
+    flex-basis: 60%;
+}
+.footer > .container{
+    text-align: center;
+    padding: 0 5px;
+    flex-basis: 40%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10%;
+}
+.fa-brands{
+    font-size: 1vw;
+}

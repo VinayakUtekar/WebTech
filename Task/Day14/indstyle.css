@@ -1,0 +1,171 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.sec-1{
+    height: 12vh;
+    width: 100%;
+    padding: 0 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20%;
+    background-color: #fff; 
+    position: sticky;
+    top: 0;
+    z-index: 100; 
+    box-shadow: 1px 1px 10px #b1aeae;
+}
+.sec-1 > header{
+    flex-basis: 40%;
+}
+.sec-1 > header > h1{
+    font-size: 2.5vw;
+}
+.sec-1 > nav{
+    flex-basis: 60%;
+    height: 100%;
+}
+.sec-1 > nav > ul{
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row !important;
+    justify-items: center;
+    align-items: center;
+    gap: 10%;
+    font-size: 1.5vw;
+}
+.sec-1 > nav > ul >li > a{
+    text-decoration: none;
+    color: black;
+}
+.sec-1 > nav > ul >li > a:hover{
+    text-decoration: none;
+    border-radius: 5px;
+    color: brown;
+}
+.sec-2{
+    height: 128vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+.sec-2 > .disturb1{
+    flex-basis: 40%;
+    background-color: #e6dace;
+}
+.content{
+    height: 96vh;
+    width: 70vw;
+    border-radius: v5px;
+    color: black;
+    text-align: center;
+    position: absolute;
+    left: 16%;
+    top: 28%;
+    display: flex;
+}
+.content > .contentcon{
+    background-color: #f4ece6;
+    flex-basis: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: star;
+    align-items: center;
+    padding-top: 7%;
+    font-size: 2.5vw;
+    gap: 5%;
+    box-shadow: 1px 1px 10px #777676;
+}
+.content > .contentcon > aside.name{
+    text-align: center;
+    padding-bottom: 7%;
+    border-bottom: 2px solid #ae1717;
+}
+.content > .contentcon > aside.post{
+    text-align: center;
+    font-size: 2vw;
+    font-weight: 500;
+    padding-bottom: 7%;
+}
+.content > .contentcon > img{
+    border-radius: 100%;
+    height: 30vh;
+    width: 15vw;
+    box-shadow: 2px 2px 20px #a2a0a0;
+}
+.content > .contentcon > aside.soc{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+.content > .contentcon > aside.soc > .fa-brands{
+    font-size: 2vw;
+    padding: 5% 5%;
+}
+.content > .contentdata{
+    background-color: #fff;
+    flex-basis: 60%;
+    padding-top: 10%;
+    padding-right: 15%;
+}
+.content > .contentdata > h1{
+    font-size: 6vw;
+    padding-bottom: 8%;
+}
+.content > .contentdata > h2{
+    padding-bottom: 8%;
+}
+.content > .contentdata > .btn{
+    padding: 2% 5%;
+    color: black;
+    border-radius: 25px;
+}
+.content > .contentdata > .btn > a{
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+    text-decoration: none;
+    color: black;
+}
+.content > .contentdata > .res{
+    padding: 2% 5%;
+    background-color: blue;
+    border-radius: 25px;
+}
+.content > .contentdata > .res > a{
+    color: #fff;
+}
+.content > .contentdata > p{
+    padding-top: 6%;
+    border-radius: 25px;
+    padding-left: 3%;
+    font-size: 1.5vw;
+}
+.footer{
+    height: 10vh;
+    padding: 0 5%;
+    width: 100%;
+    display: flex;
+    flex-direction: row !important;
+    gap: 10%;
+    align-items: center;
+    font-size: 1.5vw;
+}
+.footer > .con{
+    flex-basis: 60%;
+}
+.footer > .container{
+    text-align: center;
+    padding: 0 5px;
+    flex-basis: 40%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10%;
+}
+.fa-brands{
+    font-size: 1vw;
+}
